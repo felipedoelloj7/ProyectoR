@@ -7,12 +7,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: '', Fantasy;
 }
 
 body {
     margin: 0;
-    font-family: 'Lato';
+    font-family: 'Serif';
     color: #333;
 }
 
@@ -47,7 +47,7 @@ header {
     right: 0;
 
     background-color: #000;
-    color: #fff;
+    color: #17171710;
     width: 25px;
     height: 25px;
 
@@ -67,7 +67,7 @@ header {
     top: 50px;
     right: 0;
 
-    background-color: #fff;
+    background-color: #58585860;
     width: 400px;
     z-index: 1;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -91,10 +91,10 @@ header {
 
 
 .titulo-producto-carrito {
-    max-width: 150px;  /* Ajusta este valor según lo que necesites */
-    overflow: hidden;  /* Para evitar que el contenido se desborde */
-    white-space: nowrap;  /* Para evitar saltos de línea automáticos */
-    text-overflow: ellipsis;  /* Para mostrar puntos suspensivos si el contenido es demasiado largo */
+    max-width: 150px;  
+    overflow: hidden;  
+    white-space: nowrap;  
+    text-overflow: ellipsis;  
 }
 
 .precio-producto-carrito {
@@ -187,9 +187,9 @@ header {
 .info-product button {
     border: none;
     background: none;
-    background-color: #000;
+    background-color: #fc0909;
     color: #fff;
-    padding: 15px 10px;
+    padding: 15px 1px;
     cursor: pointer;
 }
 
@@ -205,7 +205,7 @@ header {
 
 .btn-clear-all {
     border: none;
-    background-color: #000;
+    background-color: #eae8e8;
     color: #fff;
     padding: 15px 0;
     display: block;
@@ -229,12 +229,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
-    background-color: #333;
+    padding: 0px 20px;
+    background-color: #ff5252;
 }
 
 .navbar-left h1 {
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .navbar-right {
@@ -244,7 +244,7 @@ header {
 
 .navbar-right a, .navbar-right .cart-icon {
     margin-left: 20px;
-    color: white;
+    color: rgb(16, 1, 1);
     text-decoration: none;
 }
 
@@ -331,39 +331,39 @@ header {
 
 .product-detail-container {
     display: flex;
-    align-items: center; /* Centra el contenido verticalmente */
-    justify-content: space-between; /* Separa los elementos a los extremos */
-    min-height: 80vh; /* Establece un alto mínimo para asegurar el centrado vertical */
-    gap: 50px; /* Espacio entre la imagen y la info del producto */
-    padding: 0 10%; /* Agrega un poco de espacio en los lados para que no esté pegado al borde de la ventana */
+    align-items: center; 
+    justify-content: space-between; 
+    min-height: 80vh; 
+    gap: 50px;
+    padding: 0 10%; 
 }
 
 .product-image-container {
-    flex: 0.4; /* Toma el 40% del ancho */
-    text-align: center; /* Centra la imagen horizontalmente */
+    flex: 0.4; 
+    text-align: center; 
 }
 
 .product-detail-image {
-    width: 90%; /* Ajusta según necesites para hacer la imagen más pequeña */
-    margin: 0 auto; /* Centra la imagen horizontalmente */
+    width: 90%; 
+    margin: 0 auto; 
 }
 
 .product-info-container {
-    flex: 0.6; /* Toma el 60% del ancho */
+    flex: 0.6; 
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
 .product-description {
-    margin-bottom: 20px; /* Espacio entre la descripción y el botón */
+    margin-bottom: 20px; 
 }
 
 button {
-    /* Aquí puedes reutilizar los estilos del botón 'Añadir al carrito' de tu página de inicio */
+    
     border: none;
     background: none;
-    background-color: #000;
+    background-color: #000000;
     color: #fff;
     padding: 15px 10px;
     cursor: pointer;
@@ -378,18 +378,17 @@ button:hover {
     border: 1px solid #ddd;
     padding: 15px;
     border-radius: 10px;
-    width: 300px; /* O lo que necesites */
-  }
-  
-  .brief-list {
+    width: 300px; 
+}
+
+.brief-list {
     list-style-type: none;
     padding: 0;
-  }
-  
-  .brief-list li {
+}
+
+.brief-list li {
     margin-bottom: 10px;
-  }
-  
+}
 
 
 
@@ -398,7 +397,8 @@ button:hover {
 
 
 
-   
+
+
 
 
 

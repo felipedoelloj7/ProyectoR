@@ -9,7 +9,7 @@ const Navbar = () => {
     return (
         <nav className="navbar">
             <div className="navbar-left">
-                <h1>Tienda de Mousepads</h1>
+                <h1> GAMING STORE </h1>
             </div>
 
             <div className="navbar-right">

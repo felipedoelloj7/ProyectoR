@@ -84,12 +84,12 @@ const CartWidget = () => {
               <span className='total-pagar'>${total}</span>
             </div>
             <button className='btn-clear-all' onClick={onCleanCart}>
-              Vaciar Carrito
+              Vaciar Compras
             </button>
-            <Link to="/checkout" className="btn-clear-all">Proceder al checkout</Link>
+            <Link to="/checkout" className="btn-clear-all">Finalizar Compra </Link>
           </>
         ) : (
-          <p className='cart-empty'>El carrito está vacío</p>
+          <p className='cart-empty'>No Tienes Ninguna Compra en el Carrito</p>
         )}
       </div>
     </div>

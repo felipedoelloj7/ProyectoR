@@ -22,8 +22,6 @@ const Contacto = () => {
         <div className="contact-container">
             <h2>Contacto</h2>
             <div className="contact-details">
-                <p>Dirección: Avenida UwU 123</p>
-                <p>Teléfono: +123456789</p>
             </div>
     
             <form className="contact-form" onSubmit={handleSubmit}>
@@ -38,7 +36,7 @@ const Contacto = () => {
                     />
                 </div>
                 <div>
-                    <label>Mensaje:</label>
+                    <label>Comentario:</label>
                     <textarea 
                         name="message" 
                         value={formData.message} 
